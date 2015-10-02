@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KR3-Ot-TDG">
+                                <rect key="frame" x="102" y="132" width="117" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Send one picture">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didPressSendOne" destination="BYZ-38-t0r" eventType="touchUpInside" id="xIz-wT-q9P"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="A.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Abr-oZ-93E">
+                                <rect key="frame" x="16" y="20" width="288" height="100"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="353" id="cbi-HT-hGh"/>
+                                    <constraint firstAttribute="height" constant="100" id="z9i-nN-ujJ"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="cbi-HT-hGh"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="A.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Lg0-nF-7F5">
+                                <rect key="frame" x="16" y="188" width="288" height="100"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="353" id="6Ww-qR-7V4"/>
+                                    <constraint firstAttribute="height" constant="100" id="HRv-e0-klN"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="6Ww-qR-7V4"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="B.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="649-Ap-EbC">
+                                <rect key="frame" x="16" y="286" width="288" height="100"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="353" id="Zrb-Ys-6hE"/>
+                                    <constraint firstAttribute="height" constant="100" id="kcL-7f-8R5"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Zrb-Ys-6hE"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dhd-Mo-1RT">
+                                <rect key="frame" x="83" y="398" width="154" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Send multiple pictures">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didPressSendMultiple" destination="BYZ-38-t0r" eventType="touchUpInside" id="zhF-mU-d0R"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dhd-Mo-1RT" firstAttribute="top" secondItem="649-Ap-EbC" secondAttribute="bottom" constant="12" id="21n-h7-gc6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Abr-oZ-93E" secondAttribute="trailing" id="5zz-cn-PcY"/>
+                            <constraint firstItem="Abr-oZ-93E" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="6aS-mF-Eja"/>
+                            <constraint firstItem="649-Ap-EbC" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Anx-lQ-Yeo"/>
+                            <constraint firstAttribute="centerX" secondItem="Abr-oZ-93E" secondAttribute="centerX" id="Cmg-7q-ukG"/>
+                            <constraint firstItem="649-Ap-EbC" firstAttribute="top" secondItem="Lg0-nF-7F5" secondAttribute="bottom" constant="-2" id="FEw-48-sce"/>
+                            <constraint firstItem="Lg0-nF-7F5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="KJB-33-2uh"/>
+                            <constraint firstItem="Abr-oZ-93E" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="UPH-KN-ldW"/>
+                            <constraint firstItem="Lg0-nF-7F5" firstAttribute="top" secondItem="KR3-Ot-TDG" secondAttribute="bottom" constant="26" id="dlo-bC-fpu"/>
+                            <constraint firstAttribute="centerX" secondItem="KR3-Ot-TDG" secondAttribute="centerX" id="eQq-dR-wec"/>
+                            <constraint firstItem="KR3-Ot-TDG" firstAttribute="top" secondItem="Abr-oZ-93E" secondAttribute="bottom" constant="12" id="mAG-yi-Csn"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Lg0-nF-7F5" secondAttribute="trailing" id="qUw-Tf-Er7"/>
+                            <constraint firstAttribute="centerX" secondItem="dhd-Mo-1RT" secondAttribute="centerX" id="tAX-dX-BHD"/>
+                            <constraint firstItem="649-Ap-EbC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="w3t-z5-NYX"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138" y="294"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="A.jpg" width="1242" height="1242"/>
+        <image name="B.jpg" width="2448" height="2448"/>
+    </resources>
+</document>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>70BACD26-A9F3-4014-87A0-042B269D03EA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>testInvioImmagine</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C0418435DB7035FE184154B23A52F61A76206B19</key>
+		<string>https://bitbucket.org/mauropiccini/tonki.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>test/testInvioImmagine/testInvioImmagine.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C0418435DB7035FE184154B23A52F61A76206B19</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/mauropiccini/tonki.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C0418435DB7035FE184154B23A52F61A76206B19</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C0418435DB7035FE184154B23A52F61A76206B19</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Tonki</string>
+		</dict>
+	</array>
+</dict>
+</plist>
