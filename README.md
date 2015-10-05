@@ -2,7 +2,7 @@
 Example app to send pictures to Tonki app
 
 Sending picture from your app to Tonki is easy.
-Just copy the picure (or pictures) to the clipboard and open the tonki url (tonki://
+Just copy the picure (or pictures) to the clipboard and open the tonki url ( tonki://create/clipboard )
 
 ### How to use
 Just download the project, open SendToTonki.xcproject and run it on a device with Tonki app installed ( https://geo.itunes.apple.com/it/app/tonki.com/id964498250?mt=8 ).
