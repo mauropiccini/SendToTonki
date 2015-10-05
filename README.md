@@ -1,3 +1,5 @@
+![LSApplicationQueriesSchemes in Info.plist](https://github.com/mauropiccini/SendToTonki/raw/master/docs/banner.png)
+
 # SendToTonki
 Example app to send pictures to Tonki app
 
@@ -28,4 +30,7 @@ JPEG ang PNG are both valid but JPEG is preferred to minimize speed and memory i
 Since the image is copied in the clipboard, reducing the image size is a good thing.
 Keep the resolution under 2048x2048. Tonki images are 1024x1024 but a larger image can enable the user to zoom and pan.
 
-
+## More informations
+* website: http://www.tonki.com
+* iTunes app: https://geo.itunes.apple.com/it/app/tonki.com/id964498250?mt=8
+![icon](https://github.com/mauropiccini/SendToTonki/raw/master/docs/icon.png)
