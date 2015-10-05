@@ -17,6 +17,7 @@
 		0B8E18B21B46CDBA00F5A49E /* A.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B8E18B11B46CDBA00F5A49E /* A.jpg */; };
 		0B8E18B41B46CEC800F5A49E /* B.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B8E18B31B46CEC800F5A49E /* B.jpg */; };
 		0B8E18B61B46E12500F5A49E /* G.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B8E18B51B46E12500F5A49E /* G.png */; };
+		0BD32C6F1BC2682400DBC3C8 /* infoplist.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BD32C6E1BC2682400DBC3C8 /* infoplist.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		0B8E18B11B46CDBA00F5A49E /* A.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = A.jpg; sourceTree = "<group>"; };
 		0B8E18B31B46CEC800F5A49E /* B.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = B.jpg; sourceTree = "<group>"; };
 		0B8E18B51B46E12500F5A49E /* G.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = G.png; sourceTree = "<group>"; };
+		0BD32C6E1BC2682400DBC3C8 /* infoplist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = infoplist.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 		0B5DAD7D1B429DEC00F84A97 = {
 			isa = PBXGroup;
 			children = (
+				0BD32C6D1BC2680E00DBC3C8 /* docs */,
 				0B5DAD881B429DEC00F84A97 /* SendToTonki */,
 				0B5DADA21B429DED00F84A97 /* SendToTonkiTests */,
 				0B5DAD871B429DEC00F84A97 /* Products */,
@@ -126,6 +129,14 @@
 				0B5DADA41B429DED00F84A97 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0BD32C6D1BC2680E00DBC3C8 /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				0BD32C6E1BC2682400DBC3C8 /* infoplist.png */,
+			);
+			path = docs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B5DAD951B429DEC00F84A97 /* Main.storyboard in Resources */,
+				0BD32C6F1BC2682400DBC3C8 /* infoplist.png in Resources */,
 				0B8E18B21B46CDBA00F5A49E /* A.jpg in Resources */,
 				0B8E18B41B46CEC800F5A49E /* B.jpg in Resources */,
 				0B2BAC271BBE8CA200D83687 /* Images.xcassets in Resources */,

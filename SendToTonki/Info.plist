@@ -40,7 +40,7 @@
 	</dict>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
-		<string>tonki</string>
+		<string>tonkis</string>
 	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>

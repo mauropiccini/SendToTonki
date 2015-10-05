@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D0557059715B827C514184785883C71D53A379BB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C0418435DB7035FE184154B23A52F61A76206B19" : 0,
+    "D0557059715B827C514184785883C71D53A379BB" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AA232404-923E-4404-A9C5-BFD90E17EA69",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C0418435DB7035FE184154B23A52F61A76206B19" : "Tonki\/",
+    "D0557059715B827C514184785883C71D53A379BB" : "SendToTonki\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SendToTonki",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SendToTonki.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/mauropiccini\/tonki.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C0418435DB7035FE184154B23A52F61A76206B19"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mauropiccini\/SendToTonki.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D0557059715B827C514184785883C71D53A379BB"
+    }
+  ]
+}
