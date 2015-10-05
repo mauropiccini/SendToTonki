@@ -16,7 +16,7 @@ you need to decalre in __Info.plist__ the tonki:// scheme
 
 Just add an array named __LSApplicationQueriesSchemes__ with an element with value __tonki__
 
-![alt tag](https://github.com/mauropiccini/SendToTonki/raw/master/docs/infoplist.png)
+![LSApplicationQueriesSchemes in Info.plist](https://github.com/mauropiccini/SendToTonki/raw/master/docs/infoplist.png)
 
 ### Scheme research
 To be sure that the Tonki app is installed on the user's phone, you can with canOpenUrl method
