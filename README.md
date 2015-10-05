@@ -1,6 +1,6 @@
 ![LSApplicationQueriesSchemes in Info.plist](https://github.com/mauropiccini/SendToTonki/raw/master/docs/banner.png)
 
-# SendToTonki
+# Send to Tonki
 Example app to send pictures to Tonki app
 
 Sending picture from your app to Tonki is easy.
@@ -33,4 +33,5 @@ Keep the resolution under 2048x2048. Tonki images are 1024x1024 but a larger ima
 ## More informations
 * website: http://www.tonki.com
 * iTunes app: https://geo.itunes.apple.com/it/app/tonki.com/id964498250?mt=8
+
 ![icon](https://github.com/mauropiccini/SendToTonki/raw/master/docs/icon.png)
