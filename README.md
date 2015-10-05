@@ -7,6 +7,17 @@ Just copy the picure (or pictures) to the clipboard and open the tonki url ( ton
 ### How to use
 Just download the project, open SendToTonki.xcproject and run it on a device with Tonki app installed ( https://geo.itunes.apple.com/it/app/tonki.com/id964498250?mt=8 ).
 
+### iOS9 schema 
+If you see this message in the logs:
+```
+canOpenURL: failed for URL: "tonki://" - error: "This app is not allowed to query for scheme tonki"
+```
+you need to decalre in __Info.plist__ the tonki:// scheme
+
+Just add an array named __LSApplicationQueriesSchemes__ with an element with value __tonki__
+
+![alt tag](https://github.com/mauropiccini/SendToTonki/raw/master/docs/infoplist.png)
+
 ### Scheme research
 To be sure that the Tonki app is installed on the user's phone, you can with canOpenUrl method
 
